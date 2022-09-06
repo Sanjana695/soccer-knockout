@@ -1,0 +1,23 @@
+.matchesCard{
+       border: 1px solid black;
+}
+.carousel-indicators [data-bs-target]{
+    width: 7px ;
+    height: 7px;
+    border: 1px solid white;
+    border-radius: 100%;         
+  } 
+  .carousel-indicators .active{
+    background-color:black;
+  }
+  .carousel-control-next{
+    display: none;
+  }
+  .carousel-control-prev{
+    display: none;
+  }
+  .bg-color{
+    background-color:rgba(29, 27, 27, 0.6);
+    color:black;
+    min-height: 40vh; 
+  }
